@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "echarts": "^5.4.1",
+    "jquery": "^3.6.3"
+  }
+}
