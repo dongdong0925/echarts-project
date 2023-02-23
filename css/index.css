@@ -37,8 +37,8 @@ header .showTime {
 }
 .mainbox {
   display: flex;
-  min-width: 1024px;
-  max-width: 1920px;
+  min-width: 12.8rem;
+  max-width: 24rem;
   margin: 0 auto;
   padding: 0.125rem 0.125rem 0;
 }
@@ -54,27 +54,27 @@ header .showTime {
   padding: 0 0.1875rem 0.5rem;
   height: 3.925rem;
   margin-bottom: 0.1875rem;
-  border: 1px solid rgba(25, 186, 139, 0.17);
+  border: 0.0125rem solid rgba(25, 186, 139, 0.17);
   background: url(../images/line\(1\).png) rgba(225, 225, 225, 0.03);
 }
 .mainbox .panel::before {
   position: absolute;
   top: 0;
   left: 0;
-  width: 10px;
-  height: 10px;
-  border-left: 2px solid #02a6b5;
-  border-top: 2px solid #02a6b5;
+  width: 0.125rem;
+  height: 0.125rem;
+  border-left: 0.025rem solid #02a6b5;
+  border-top: 0.025rem solid #02a6b5;
   content: "";
 }
 .mainbox .panel::after {
   position: absolute;
   top: 0;
   right: 0;
-  width: 10px;
-  height: 10px;
-  border-right: 2px solid #02a6b5;
-  border-top: 2px solid #02a6b5;
+  width: 0.125rem;
+  height: 0.125rem;
+  border-right: 0.025rem solid #02a6b5;
+  border-top: 0.025rem solid #02a6b5;
   content: "";
 }
 .mainbox .panel .panel-footer {
@@ -87,20 +87,20 @@ header .showTime {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 10px;
-  height: 10px;
-  border-right: 2px solid #02a6b5;
-  border-bottom: 2px solid #02a6b5;
+  width: 0.125rem;
+  height: 0.125rem;
+  border-right: 0.025rem solid #02a6b5;
+  border-bottom: 0.025rem solid #02a6b5;
   content: "";
 }
 .mainbox .panel .panel-footer::after {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 10px;
-  height: 10px;
-  border-left: 2px solid #02a6b5;
-  border-bottom: 2px solid #02a6b5;
+  width: 0.125rem;
+  height: 0.125rem;
+  border-left: 0.025rem solid #02a6b5;
+  border-bottom: 0.025rem solid #02a6b5;
   content: "";
 }
 .mainbox .panel h2 {
@@ -125,27 +125,27 @@ header .showTime {
 }
 .no .no-hd {
   position: relative;
-  border: 1px solid rgba(25, 186, 139, 0.17);
+  border: 0.0125rem solid rgba(25, 186, 139, 0.17);
 }
 .no .no-hd::before {
   position: absolute;
   top: 0;
   left: 0;
   content: "";
-  width: 30px;
-  height: 10px;
-  border-top: 2px solid #02a6b5;
-  border-left: 2px solid #02a6b5;
+  width: 0.375rem;
+  height: 0.125rem;
+  border-top: 0.025rem solid #02a6b5;
+  border-left: 0.025rem solid #02a6b5;
 }
 .no .no-hd::after {
   position: absolute;
   bottom: 0;
   right: 0;
   content: "";
-  width: 30px;
-  height: 10px;
-  border-bottom: 2px solid #02a6b5;
-  border-right: 2px solid #02a6b5;
+  width: 0.375rem;
+  height: 0.125rem;
+  border-bottom: 0.025rem solid #02a6b5;
+  border-right: 0.025rem solid #02a6b5;
 }
 .no .no-hd ul {
   display: flex;
@@ -165,7 +165,7 @@ header .showTime {
   top: 25%;
   right: 0;
   height: 50%;
-  width: 1px;
+  width: 0.0125rem;
   background: rgba(255, 255, 255, 0.2);
 }
 .no .no-bd ul {
